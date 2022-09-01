@@ -1,0 +1,148 @@
+.container{
+    max-width: 100%;
+    height: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.news h3{
+	display:flex;
+	justify-content:center;
+	margin-top:15px;
+	margin-bottom:15px;
+	 font-weight: 700;
+    letter-spacing: 1px;
+    color: blue;
+    font-family: "Nunito", sans-serif;
+	
+    
+}
+.news p{
+	display:flex;
+	justify-content:center;
+	margin-bottom:35px;
+    letter-spacing: 1px;
+	font-size:10px;
+    font-family: "Nunito", sans-serif;
+    
+}
+.news form{
+	display:flex;
+	justify-content:center;
+	margin-bottom:30px;
+}
+form button {
+	background-color:blue;
+	color:white;
+	border:none;
+	padding:10px;
+	
+}
+form input{
+	padding-left:50px;
+	padding-right:50px;
+	background-color:white;
+	border:none;
+	box-shadow:0 0 20px rgba(182, 182, 182, 0.548);
+}
+.footer{
+	position:relative;
+	box-shadow:0 0 20px rgba(182, 182, 182, 0.548);
+	padding-bottom:50px;	
+}
+
+.footer img{
+	position:absolute;
+	top:0;
+	left:750px;
+	width:500px;
+	height:250px;
+}
+.flex-footer{
+	display:flex;
+	padding-top:50px;
+	margin-bottom:50px;
+}
+.flexstart{
+	width:40%;
+}
+.flexstart img{
+	max-width:18px;
+}
+.flexstart span{
+	font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #012970;
+    font-family: "Nunito", sans-serif;
+
+}
+.flexstart p{
+   padding-top: 20px;
+   line-height: 24px;
+   font-family:  "Raleway", sans-serif;
+   font-size: 10px;
+}
+.f-icons ul li{
+    display:inline-block;
+	 margin-top:10px;
+}
+.f-icons ul li a{
+   text-decoration:none;
+   padding-right:5px;
+  
+}
+.usefullink{
+	width:20%;
+}
+.usefullink span{
+	font-size: 16px;
+    font-weight: bold;
+    color: #012970;
+    text-transform: uppercase;
+    padding-bottom: 12px;
+}
+.usefullink ul {
+	margin-top:10PX;
+	line-height:28px;
+	margin-left:5px;
+}
+.usefullink ul li a{
+	text-decoration:none;
+	color: #013289;
+}
+
+.service{
+	width:20%;
+}
+.service span{
+	font-size: 16px;
+    font-weight: bold;
+    color: #012970;
+    text-transform: uppercase;
+    padding-bottom: 12px;
+}
+.service ul {
+	margin-top:10PX;
+	line-height:28px;
+	margin-left:5px;
+}
+.service ul li a{
+	text-decoration:none;
+	color: #013289;
+}
+.contact{
+	width:20%
+}
+.contact h3{
+	font-size: 16px;
+    font-weight: bold;
+    color: #012970;
+    text-transform: uppercase;
+    padding-bottom: 23px;
+}
+.con-info{
+	font-family:"Raleway", sans-serif;
+	font-size:12px;
+	margin-bottom:10px;
+}
+
